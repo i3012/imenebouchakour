@@ -1,0 +1,99 @@
+
+.nomprenom{
+	background-image: url("original.jpg");
+	background-repeat: repeat-x;
+	border-style: solid;
+	border-color: white;
+	border-width: 1px;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-top: 200px;
+	margin-top: 0px;
+	float: left;
+	text-align: center;
+	height:430px; 
+}
+
+.nom{
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+
+.prenom{
+	font-size: 35px;
+	letter-spacing: 5px;
+}
+
+#etd{
+	font-size: 20px;
+	letter-spacing: 5px;
+	animation: flash 1.5s infinite;
+}
+
+@keyframes flash{
+	50%{
+		color: #BC244D;
+	}
+}
+
+#etd:nth-child(1){
+	animation-delay: .15s ;
+}
+
+#etd:nth-child(1){
+	animation-delay: .25s ;
+}
+
+#etd:nth-child(2){
+	animation-delay: .35s ;
+}
+
+#etd:nth-child(4){
+	animation-delay: .45s ;
+}
+
+#etd:nth-child(5){
+	animation-delay: .55s ;
+}
+
+#etd:nth-child(6){
+	animation-delay: .65s ;
+}
+
+#etd:nth-child(7){
+	animation-delay: .75s ;
+}
+
+#etd:nth-child(8){
+	animation-delay: .85s ;
+}
+
+#etd:nth-child(9){
+	animation-delay: .95s ;
+}
+
+/*.presentation{
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+	padding-right: 05%;
+	padding-left: 10%;
+	padding-top: 100px;
+	margin-left: 394px ;
+	float: right;
+}*/
+
+.presentation{
+	background-color: #0B0003;
+	color: #FFF2F6;
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+	padding-top: 100px;
+	padding-left: 570px;
+	padding-right: 50px;
+	letter-spacing: 2px;
+	font-size: 20px;
+	height:530px;
+}
+
